@@ -11,17 +11,3 @@ spring:
           uri: https://github.com/rusakovich-viktar/micro-config-server-cloud.git
           default-label: develop
           search-paths: "{application}"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
