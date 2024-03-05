@@ -1,4 +1,4 @@
-package by.clevertec;
+package by.clevertec.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

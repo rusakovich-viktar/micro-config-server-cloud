@@ -3,11 +3,11 @@ server:
 
 spring:
   application:
-    name: config-service
+    name: cloud-config-server
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/rusakovich-viktar/micro-config-server-cloud.git
+          uri: https://github.com/rusakovich-viktar/cloud-yml.git
           default-label: develop
           search-paths: "{application}"
