@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/rusakovich-viktar/micro-config-server.git
+          uri: https://github.com/rusakovich-viktar/micro-config-server-cloud.git
           default-label: develop
           search-paths: "{application}"
 
