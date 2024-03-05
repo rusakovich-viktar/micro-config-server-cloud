@@ -1,0 +1,12 @@
+  liquibase:
+    enabled: true
+    change-log: classpath:db/changelog/db.changelog-master.yaml
+    contexts: prod
+
+server:
+  port: 8081
+
+micro-news:
+  openapi:
+    dev-url: http://localhost:8081
+    prod-url: micro-news:8081

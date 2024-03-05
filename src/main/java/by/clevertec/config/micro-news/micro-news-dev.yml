@@ -1,0 +1,13 @@
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/news_comments
+    username: postgres
+    password: postgres
+  liquibase:
+    contexts: prod
+cache:
+  algorithm: LFU
+  capacity: 50
+comments-service:
+  url: http://localhost:8082
